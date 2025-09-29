@@ -50,11 +50,11 @@ class Figure_square:
         
 
 def circle_square(radius):
-    return Figure_square.circle_square(radius)
+    return Figure_square().circle_square(radius)
 
 def triangle_square(side1, side2, side3):
-    return Figure_square.triangle_square(side1, side2, side3)
+    return Figure_square().triangle_square(side1, side2, side3)
 
 def is_rectangular(side1, side2, side3):
-    return Figure_square.is_rectangular(side1, side2, side3)
+    return Figure_square().is_rectangular(side1, side2, side3)
 
